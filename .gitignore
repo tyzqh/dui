@@ -4,6 +4,17 @@
 *.dll
 *.so
 *.dylib
+.idea
+**/_tmp
+**/.svn
+**/__pycache__
+**/.DS_Store
+**/*.pyc
+**/_root
+**/node_modules
+**/package-lock.json
+**/*.tgz
+**/bin/*
 
 # Test binary, built with `go test -c`
 *.test
@@ -13,3 +24,4 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
